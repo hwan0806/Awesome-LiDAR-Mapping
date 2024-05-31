@@ -42,7 +42,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 ### LiDAR Odometry
 
-|Year|Venue|Paper Title|Code|
+|Year|Venue|Paper Title|Code/Project|
 |:-:|:-:|-|-|
 |14|`RSS`|[LOAM: Lidar odometry and mapping in real-time](https://www.ri.cmu.edu/pub_files/2014/7/Ji_LidarMapping_RSS2014_v8.pdf)|[![Github stars](https://img.shields.io/github/stars/laboshinl/loam_velodyne.svg)](https://github.com/laboshinl/loam_velodyne)<br>[![Github stars](https://img.shields.io/github/stars/HKUST-Aerial-Robotics/A-LOAM.svg)](https://github.com/HKUST-Aerial-Robotics/A-LOAM)|
 |18|`RSS`|[Efficient Surfel-Based SLAM using 3D Laser Range Data in Urban Environments](https://roboticsproceedings.org/rss14/p16.pdf)|[![Github stars](https://img.shields.io/github/stars/jbehley/SuMa.svg)](https://github.com/jbehley/SuMa)|
@@ -144,7 +144,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 ### Learning-based
 
-|Year|Venue|Paper Title|Code &nbsp;&nbsp;&nbsp;&nbsp;|
+|Year|Venue|Paper Title|Code|
 |:-:|:-:|-|-|
 |21|`RAL`|[Moving Object Segmentation in 3D LiDAR Data: A Learning-based Approach Exploiting Sequential Data](https://www.ipb.uni-bonn.de/pdfs/chen2021ral-iros.pdf)|[![Github stars](https://img.shields.io/github/stars/PRBonn/LiDAR-MOS.svg)](https://github.com/PRBonn/LiDAR-MOS)|
 |22|`RAL`|[Receding Moving Object Segmentation in 3D LiDAR Data Using Sparse 4D Convolutions](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/mersch2022ral.pdf)|[![Github stars](https://img.shields.io/github/stars/PRBonn/4DMOS.svg)](https://github.com/PRBonn/4DMOS)|
