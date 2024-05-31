@@ -17,6 +17,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
   - [Algorithm-based](#algorithm-based)
   - [Learning-based](#learning-based)
 - [Multiple Map Merging](#multiple-map-merging)
+- [Useful repository](#useful-repository)
 - [Acknowledgement](#acknowledgement)
 - [Contact](#contact)
 
@@ -189,6 +190,12 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 
 
+|?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
+
+|?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
+
+|?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
+
 
 
 
@@ -198,21 +205,71 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 ## Useful repository
 
-### SLAM
+### LiDAR Odometry
+
+|Summary|Repository|
+|-|-|
+|LIO_SAM_6axis: Support 6-axis IMU and low-cost GNSS|[![Github stars](https://img.shields.io/github/stars/JokerJohn/LIO_SAM_6AXIS.svg)](https://github.com/JokerJohn/LIO_SAM_6AXIS)|
+|LIORF: Remove feature extraction module of LIO-SAM|[![Github stars](https://img.shields.io/github/stars/YJZLuckyBoy/liorf.svg)](https://github.com/YJZLuckyBoy/liorf)|
+|LIO-SAM-MID360: Support MID360 LiDAR|[![Github stars](https://img.shields.io/github/stars/nkymzsy/LIO-SAM-MID360.svg)](https://github.com/nkymzsy/LIO-SAM-MID360)|
+|S_FAST_LIO: Simplified Implementation of FAST_LIO2|[![Github stars](https://img.shields.io/github/stars/zlwang7/S-FAST_LIO.svg)](https://github.com/zlwang7/S-FAST_LIO)|
+|Multi_FastLio: Multiple LiDAR version of Fast-LIO2 with PTP Time Sync|[![Github stars](https://img.shields.io/github/stars/SeoDU/multi_fastlio.svg)](https://github.com/SeoDU/multi_fastlio)|
+|FAST_LIO_ROS2: ROS2 version of Fast-LIO2|[![Github stars](https://img.shields.io/github/stars/Ericsii/FAST_LIO_ROS2.svg)](https://github.com/Ericsii/FAST_LIO_ROS2)</br>[![Github stars](https://img.shields.io/github/stars/Taeyoung96/FAST_LIO_ROS2.svg)](https://github.com/Taeyoung96/FAST_LIO_ROS2)|
 
 
 
-|Year|Venue|Paper Title|Repository|
-|:-:|:-:|-|-|
-|21|`RAL`|[Moving Object Segmentation in 3D LiDAR Data: A Learning-based Approach Exploiting Sequential Data](https://www.ipb.uni-bonn.de/pdfs/chen2021ral-iros.pdf)|[![Github stars](https://img.shields.io/github/stars/PRBonn/LiDAR-MOS.svg)](https://github.com/PRBonn/LiDAR-MOS)|
+### SLAM Framework (Odometry+PGO)
 
-|?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
+|Summary|Repository|
+|-|-|
+|Odometry(A-LOAM, LIO-SAM, Fast-LIO) + PGO module(Scan Context)|[![Github stars](https://img.shields.io/github/stars/gisbi-kim/SC-A-LOAM.svg)](https://github.com/gisbi-kim/SC-A-LOAM)</br>[![Github stars](https://img.shields.io/github/stars/gisbi-kim/SC-LIO-SAM.svg)](https://github.com/gisbi-kim/SC-LIO-SAM)</br>[![Github stars](https://img.shields.io/github/stars/gisbi-kim/FAST_LIO_SLAM.svg)](https://github.com/gisbi-kim/FAST_LIO_SLAM)|
+|FAST-LIO-SAM:Fast-LIO2 + LIO-SAM|[![Github stars](https://img.shields.io/github/stars/yanliang-wang/FAST_LIO_LC.svg)](https://github.com/yanliang-wang/FAST_LIO_LC)</br>[![Github stars](https://img.shields.io/github/stars/kahowang/FAST_LIO_SAM.svg)](https://github.com/kahowang/FAST_LIO_SAM)</br>[![Github stars](https://img.shields.io/github/stars/engcang/FAST-LIO-SAM.svg)](https://github.com/engcang/FAST-LIO-SAM)|
+|FAST-LIO-SAM-QN: FAST-LIO-SAM + Quatro + Nano-GICP|[![Github stars](https://img.shields.io/github/stars/engcang/FAST-LIO-SAM-QN.svg)](https://github.com/engcang/FAST-LIO-SAM-QN)|
+|FAST-LIO-SAM-SC-QN: FAST-LIO-SAM-QN + Scan Context|[![Github stars](https://img.shields.io/github/stars/engcang/FAST-LIO-SAM-SC-QN.svg)](https://github.com/engcang/FAST-LIO-SAM-SC-QN)|
+|Faster_LIO_SAM: Faster-Lio + Lio-SAM|[![Github stars](https://img.shields.io/github/stars/GDUT-Kyle/faster_lio_sam.svg)](https://github.com/GDUT-Kyle/faster_lio_sam)|
+|IG-LIO + LIO-SAM|[![Github stars](https://img.shields.io/github/stars/liangheming/iG-LIO_SAM_LC.svg)](https://github.com/liangheming/iG-LIO_SAM_LC)</br>[![Github stars](https://img.shields.io/github/stars/INIF-FISH/IG_LIO_SLAM.svg)](https://github.com/INIF-FISH/IG_LIO_SLAM)|
+|LeGO-LOAM + BoW3D|[![Github stars](https://img.shields.io/github/stars/chengwei0427/BoW3D-LeGO-LOAM.svg)](https://github.com/chengwei0427/BoW3D-LeGO-LOAM)|
 
-|?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
 
-|?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
 
-|?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
+### Evaluation
+|Summary|Repository|
+|-|-|
+
+
+||[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
+
+||[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
+
+||[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
+
+||[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
+
+
+
+
+
+
+|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|Fast-Lio2(FrontEnd) + SAM|
+
+|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|?|
+
+|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|?|
+
+|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|?|
+
+|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|?|
+
+|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|?|
+
+|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|?|
+
+|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|?|
+
+|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|?|
+
+
+
 
 
 
