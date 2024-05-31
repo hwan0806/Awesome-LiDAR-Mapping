@@ -174,6 +174,21 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |:-:|:-:|-|-|
 |20|`IROS`|[Remove, then Revert: Static Point cloud Map Construction using Multiresolution Range Images](https://ieeexplore.ieee.org/abstract/document/9340856)|[![Github stars](https://img.shields.io/github/stars/gisbi-kim/removert.svg)](https://github.com/gisbi-kim/removert)|
 
+|Year|Venue|Paper Title|Codee|
+|:-:|:-:|-|-|
+|20|`IROS`|[Remove, then Revert: Static Point cloud Map Construction using Multiresolution Range Images](https://ieeexplore.ieee.org/abstract/document/9340856)|[![Github stars](https://img.shields.io/github/stars/gisbi-kim/removert.svg)](https://github.com/gisbi-kim/removert)|
+
+|Year|Venue|Paper Title|Codeee|
+|:-:|:-:|-|-|
+|20|`IROS`|[Remove, then Revert: Static Point cloud Map Construction using Multiresolution Range Images](https://ieeexplore.ieee.org/abstract/document/9340856)|[![Github stars](https://img.shields.io/github/stars/gisbi-kim/removert.svg)](https://github.com/gisbi-kim/removert)|
+
+|Year|Venue|Paper Title|Codeeee|
+|:-:|:-:|-|-|
+|20|`IROS`|[Remove, then Revert: Static Point cloud Map Construction using Multiresolution Range Images](https://ieeexplore.ieee.org/abstract/document/9340856)|[![Github stars](https://img.shields.io/github/stars/gisbi-kim/removert.svg)](https://github.com/gisbi-kim/removert)|
+
+|Year|Venue|Paper Title|Codeeeee|
+|:-:|:-:|-|-|
+|20|`IROS`|[Remove, then Revert: Static Point cloud Map Construction using Multiresolution Range Images](https://ieeexplore.ieee.org/abstract/document/9340856)|[![Github stars](https://img.shields.io/github/stars/gisbi-kim/removert.svg)](https://github.com/gisbi-kim/removert)|
 
 
 
