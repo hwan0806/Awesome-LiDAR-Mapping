@@ -42,7 +42,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 ### LiDAR Odometry
 
-|Year|Venue|Paper Title|Code/Project|
+|Year|Venue|Paper Title|Repository|
 |:-:|:-:|-|-|
 |14|`RSS`|[LOAM: Lidar odometry and mapping in real-time](https://www.ri.cmu.edu/pub_files/2014/7/Ji_LidarMapping_RSS2014_v8.pdf)|[![Github stars](https://img.shields.io/github/stars/laboshinl/loam_velodyne.svg)](https://github.com/laboshinl/loam_velodyne)<br>[![Github stars](https://img.shields.io/github/stars/HKUST-Aerial-Robotics/A-LOAM.svg)](https://github.com/HKUST-Aerial-Robotics/A-LOAM)|
 |18|`RSS`|[Efficient Surfel-Based SLAM using 3D Laser Range Data in Urban Environments](https://roboticsproceedings.org/rss14/p16.pdf)|[![Github stars](https://img.shields.io/github/stars/jbehley/SuMa.svg)](https://github.com/jbehley/SuMa)|
