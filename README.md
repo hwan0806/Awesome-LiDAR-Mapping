@@ -67,7 +67,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 ### LiDAR-Inertial Odometry
 
-|Year|Venue|Paper Title|Code|
+|Year|Venue|Paper Title|Repository|
 |:-:|:-:|-|-|
 |19|`ICRA`|[A Tightly Coupled 3D Lidar and Inertial Odometry and Mapping Approach](https://arxiv.org/abs/1904.06993)|[![Github stars](https://img.shields.io/github/stars/hyye/lio-mapping.svg)](https://github.com/hyye/lio-mapping)|
 |20|`ICRA`|[LINS: A Lidar-Inertial State Estimator for Robust and Efficient Navigation](https://ieeexplore.ieee.org/abstract/document/9197567)|[![Github stars](https://img.shields.io/github/stars/ChaoqinRobotics/LINS---LiDAR-inertial-SLAM.svg)](https://github.com/ChaoqinRobotics/LINS---LiDAR-inertial-SLAM)|
@@ -99,7 +99,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 ### MLO
 
-|Year|Venue|Paper Title|Code|
+|Year|Venue|Paper Title|Repository|
 |:-:|:-:|-|-|
 |21|`TRO`|[Robust Odometry and Mapping for Multi-LiDAR Systems with Online Extrinsic Calibration](https://arxiv.org/pdf/2010.14294)|[![Github stars](https://img.shields.io/github/stars/gogojjh/M-LOAM.svg)](https://github.com/gogojjh/M-LOAM)|
 |23|`RAL`|[Asynchronous Multiple LiDAR-Inertial Odometry using Point-wise Inter-LiDAR Uncertainty Propagation](https://minwoo0611.github.io/publications/ral2023_mwjung.pdf)|[![Github stars](https://img.shields.io/github/stars/minwoo0611/MA-LIO.svg)](https://github.com/minwoo0611/MA-LIO)|
@@ -110,7 +110,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 ### Learning-based
 
-|Year|Venue|Paper Title|Code|
+|Year|Venue|Paper Title|Repository|
 |:-:|:-:|-|-|
 |21|`CVPR`|[PWCLO-Net: Deep LiDAR Odometry in 3D Point Clouds Using Hierarchical Embedding Mask Optimization](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_PWCLO-Net_Deep_LiDAR_Odometry_in_3D_Point_Clouds_Using_Hierarchical_CVPR_2021_paper.html)|[![Github stars](https://img.shields.io/github/stars/IRMVLab/PWCLONet.svg)](https://github.com/IRMVLab/PWCLONet)|
 |21|`ISPRS`|[DEEPLIO: DEEP LIDAR INERTIAL SENSOR FUSION FOR ODOMETRY ESTIMATION](https://isprs-annals.copernicus.org/articles/V-1-2021/47/2021/isprs-annals-V-1-2021-47-2021.pdf)|[![Github stars](https://img.shields.io/github/stars/ArashJavan/DeepLIO.svg)](https://github.com/ArashJavan/DeepLIO)|
@@ -130,7 +130,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 ### Algorithm-based
 
-|Year|Venue|Paper Title|Code|
+|Year|Venue|Paper Title|Repository|
 |:-:|:-:|-|-|
 |20|`IROS`|[Remove, then Revert: Static Point cloud Map Construction using Multiresolution Range Images](https://ieeexplore.ieee.org/abstract/document/9340856)|[![Github stars](https://img.shields.io/github/stars/gisbi-kim/removert.svg)](https://github.com/gisbi-kim/removert)|
 |21|`RAL`|[ERASOR: Egocentric Ratio of Pseudo Occupancy-Based Dynamic Object Removal for Static 3D Point Cloud Map Building](https://arxiv.org/abs/2103.04316)|[![Github stars](https://img.shields.io/github/stars/LimHyungTae/ERASOR.svg)](https://github.com/LimHyungTae/ERASOR)|
@@ -144,7 +144,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 ### Learning-based
 
-|Year|Venue|Paper Title|Code|
+|Year|Venue|Paper Title|Repository|
 |:-:|:-:|-|-|
 |21|`RAL`|[Moving Object Segmentation in 3D LiDAR Data: A Learning-based Approach Exploiting Sequential Data](https://www.ipb.uni-bonn.de/pdfs/chen2021ral-iros.pdf)|[![Github stars](https://img.shields.io/github/stars/PRBonn/LiDAR-MOS.svg)](https://github.com/PRBonn/LiDAR-MOS)|
 |22|`RAL`|[Receding Moving Object Segmentation in 3D LiDAR Data Using Sparse 4D Convolutions](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/mersch2022ral.pdf)|[![Github stars](https://img.shields.io/github/stars/PRBonn/4DMOS.svg)](https://github.com/PRBonn/4DMOS)|
@@ -160,7 +160,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 ### Algorithm-based
 
-|Year|Venue|Paper Title|Code|
+|Year|Venue|Paper Title|Repository|
 |:-:|:-:|-|-|
 |20|`IROS`|[Remove, then Revert: Static Point cloud Map Construction using Multiresolution Range Images](https://ieeexplore.ieee.org/abstract/document/9340856)|[![Github stars](https://img.shields.io/github/stars/gisbi-kim/removert.svg)](https://github.com/gisbi-kim/removert)|
 
