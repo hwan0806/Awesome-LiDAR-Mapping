@@ -18,6 +18,9 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
   - [Learning-based](#learning-based)
 - [Multiple Map Merging](#multiple-map-merging)
 - [Useful repository](#useful-repository)
+  - [LiDAR Odometry](#lidar-odometry)
+  - [SLAM Framework (Odometry+PGO)](#slam-framework-odometrypgo)
+  - [Evaluation](#evaluation)
 - [Acknowledgement](#acknowledgement)
 - [Contact](#contact)
 
@@ -198,11 +201,6 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 
 
-
-
-
-
-
 ## Useful repository
 
 ### LiDAR Odometry
@@ -213,9 +211,9 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |LIORF: Remove feature extraction module of LIO-SAM|[![Github stars](https://img.shields.io/github/stars/YJZLuckyBoy/liorf.svg)](https://github.com/YJZLuckyBoy/liorf)|
 |LIO-SAM-MID360: Support MID360 LiDAR|[![Github stars](https://img.shields.io/github/stars/nkymzsy/LIO-SAM-MID360.svg)](https://github.com/nkymzsy/LIO-SAM-MID360)|
 |S_FAST_LIO: Simplified Implementation of FAST_LIO2|[![Github stars](https://img.shields.io/github/stars/zlwang7/S-FAST_LIO.svg)](https://github.com/zlwang7/S-FAST_LIO)|
-|Multi_FastLio: Multiple LiDAR version of Fast-LIO2 with PTP Time Sync|[![Github stars](https://img.shields.io/github/stars/SeoDU/multi_fastlio.svg)](https://github.com/SeoDU/multi_fastlio)|
 |FAST_LIO_ROS2: ROS2 version of Fast-LIO2|[![Github stars](https://img.shields.io/github/stars/Ericsii/FAST_LIO_ROS2.svg)](https://github.com/Ericsii/FAST_LIO_ROS2)</br>[![Github stars](https://img.shields.io/github/stars/Taeyoung96/FAST_LIO_ROS2.svg)](https://github.com/Taeyoung96/FAST_LIO_ROS2)|
-
+|Multi_FastLio: Multiple LiDAR version of Fast-LIO2 with PTP Time Sync|[![Github stars](https://img.shields.io/github/stars/SeoDU/multi_fastlio.svg)](https://github.com/SeoDU/multi_fastlio)|
+<p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 
 
 ### SLAM Framework (Odometry+PGO)
@@ -229,12 +227,28 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |Faster_LIO_SAM: Faster-Lio + Lio-SAM|[![Github stars](https://img.shields.io/github/stars/GDUT-Kyle/faster_lio_sam.svg)](https://github.com/GDUT-Kyle/faster_lio_sam)|
 |IG-LIO + LIO-SAM|[![Github stars](https://img.shields.io/github/stars/liangheming/iG-LIO_SAM_LC.svg)](https://github.com/liangheming/iG-LIO_SAM_LC)</br>[![Github stars](https://img.shields.io/github/stars/INIF-FISH/IG_LIO_SLAM.svg)](https://github.com/INIF-FISH/IG_LIO_SLAM)|
 |LeGO-LOAM + BoW3D|[![Github stars](https://img.shields.io/github/stars/chengwei0427/BoW3D-LeGO-LOAM.svg)](https://github.com/chengwei0427/BoW3D-LeGO-LOAM)|
+<p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 
 
 
 ### Evaluation
 |Summary|Repository|
 |-|-|
+|evo: Python package for the evaluation of odometry and SLAM|[![Github stars](https://img.shields.io/github/stars/MichaelGrupp/evo.svg)](https://github.com/MichaelGrupp/evo)|
+|DynamicMap_Benchmark|[![Github stars](https://img.shields.io/github/stars/KTH-RPL/DynamicMap_Benchmark.svg)](https://github.com/KTH-RPL/DynamicMap_Benchmark)|
+|Cloud Map Evaluation|[![Github stars](https://img.shields.io/github/stars/JokerJohn/Cloud_Map_Evaluation.svg)](https://github.com/JokerJohn/Cloud_Map_Evaluation)|
+<p align="right">[<a href="#table-of-contents">back to table</a>]</p>
+</br>
+
+|Year|Venue|Paper Title|Repository|
+|:-:|:-:|-|-|
+|23|`ITSC`|[A Dynamic Points Removal Benchmark in Point Cloud Maps](https://arxiv.org/abs/2307.07260)|[![Github stars](https://img.shields.io/github/stars/KTH-RPL/DynamicMap_Benchmark.svg)](https://github.com/KTH-RPL/DynamicMap_Benchmark)|
+
+|?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
+
+|?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
+
+
 
 
 ||[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
@@ -245,28 +259,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 ||[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
 
-
-
-
-
-
-|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|Fast-Lio2(FrontEnd) + SAM|
-
-|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|?|
-
-|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|?|
-
-|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|?|
-
-|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|?|
-
-|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|?|
-
-|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|?|
-
-|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|?|
-
-|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|?|
+||[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
 
 
 
