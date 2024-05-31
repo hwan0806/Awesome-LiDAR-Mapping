@@ -11,7 +11,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 - [LiDAR Mapping](#lidar-mapping)
   - [LiDAR Only](#lidar-only)
   - [LiDAR-Inertial](#lidar-inertial)
-  - [Multiple LiDAR](#multiple-lidar)
+  - [Multiple LiDARs](#multiple-lidars)
   - [Learning-based Mapping](#learning-based-mapping)
 - [Static Mapping](#static-mapping)
   - [Algorithm-based](#algorithm-based)
@@ -35,6 +35,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 - `TRO`
 - `NATCOM`
 - `ISPRS`
+- `SJ`
 
 
 
@@ -103,7 +104,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 <p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 
 
-### Multiple LiDAR
+### Multiple LiDARs
 
 |Year|Venue|Paper Title|Repository|
 |:-:|:-:|-|-|
@@ -146,7 +147,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |23|`RAL`|[Dynablox: Real-time Detection of Diverse Dynamic Objects in Complex Environments](https://ieeexplore.ieee.org/document/10218983)|[![Github stars](https://img.shields.io/github/stars/ethz-asl/dynablox.svg)](https://github.com/ethz-asl/dynablox)|
 |23|`RSS`|[ERASOR2: Instance-Aware Robust 3D Mappingof the Static World in Dynamic Scenes](https://arxiv.org/abs/2103.04316)|[![Github stars](https://img.shields.io/github/stars/url-kaist/ERASOR2.svg)](https://github.com/url-kaist/ERASOR2)|
 |24|`RAL`|[RH-Map: Online Map Construction Framework of Dynamic Objects Removal Based on Region-wise Hash Map Structure](https://ieeexplore.ieee.org/document/10356720)|[![Github stars](https://img.shields.io/github/stars/YZH-bot/RH-Map.svg)](https://github.com/YZH-bot/RH-Map)|
-|24|`N`|[Moving event detection from LiDAR point streams](https://www.nature.com/articles/s41467-023-44554-8)|[![Github stars](https://img.shields.io/github/stars/hku-mars/M-detector.svg)](https://github.com/hku-mars/M-detector)|
+|24|`Nature`</br>`Com`|[Moving event detection from LiDAR point streams](https://www.nature.com/articles/s41467-023-44554-8)|[![Github stars](https://img.shields.io/github/stars/hku-mars/M-detector.svg)](https://github.com/hku-mars/M-detector)|
 |24|`RAL`|[DUFOMap: Efficient Dynamic Awareness Mapping](https://arxiv.org/abs/2403.01449)|[![Github stars](https://img.shields.io/github/stars/KTH-RPL/dufomap.svg)](https://github.com/KTH-RPL/dufomap)|
 |24|`RAL`|[BeautyMap: Binary-Encoded Adaptable Ground Matrix for Dynamic Points Removal in Global Maps](https://arxiv.org/abs/2405.07283)|[![Github stars](https://img.shields.io/github/stars/MKJia/BeautyMap.svg)](https://github.com/MKJia/BeautyMap)|
 <p align="right">[<a href="#table-of-contents">back to table</a>]</p>
@@ -179,7 +180,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |22|`ICRA`|[LT-mapper: A Modular Framework for LiDAR-based Lifelong Mapping](https://ieeexplore.ieee.org/abstract/document/9811916)|[![Github stars](https://img.shields.io/github/stars/gisbi-kim/lt-mapper.svg)](https://github.com/gisbi-kim/lt-mapper)|
 |22|`RAL`|[DiSCo-SLAM: Distributed Scan Context-Enabled Multi-Robot LiDAR SLAM With Two-Stage Global-Local Graph Optimization](https://ieeexplore.ieee.org/abstract/document/9662965)|[![Github stars](https://img.shields.io/github/stars/RobustFieldAutonomyLab/DiSCo-SLAM.svg)](https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM)|
 |23|`ICRA`|[Swarm-lio: Decentralized swarm lidar-inertial odometry](https://ieeexplore.ieee.org/document/10161355)|[![Github stars](https://img.shields.io/github/stars/hku-mars/Swarm-LIO2.svg)](https://github.com/hku-mars/Swarm-LIO2)|
-|23|`SJ`|[DCL-SLAM: A Distributed Collaborative LiDAR SLAM Framework for a Robotic Swarm](https://ieeexplore.ieee.org/abstract/document/10375928)|[![Github stars](https://img.shields.io/github/stars/PengYu-Team/DCL-SLAM.svg)](https://github.com/PengYu-Team/DCL-SLAM)|
+|23|`Sensors`|[DCL-SLAM: A Distributed Collaborative LiDAR SLAM Framework for a Robotic Swarm](https://ieeexplore.ieee.org/abstract/document/10375928)|[![Github stars](https://img.shields.io/github/stars/PengYu-Team/DCL-SLAM.svg)](https://github.com/PengYu-Team/DCL-SLAM)|
 |24|`ICRA`|[CoLRIO: LiDAR-Ranging-Inertial Centralized State Estimation for Robotic Swarms](https://arxiv.org/abs/2402.11790)|[![Github stars](https://img.shields.io/github/stars/PengYu-Team/Co-LRIO.svg)](https://github.com/PengYu-Team/Co-LRIO)|
 |24|`RAL`|[Swarm-SLAM: Sparse Decentralized Collaborative Simultaneous Localization and Mapping Framework for Multi-Robot Systems](https://ieeexplore.ieee.org/document/10321649)|[![Github stars](https://img.shields.io/github/stars/MISTLab/Swarm-SLAM.svg)](https://github.com/MISTLab/Swarm-SLAM)|
 |24|`JFR`|[LTA-OM: Long-Term Association LiDAR-Inertial Odometry and Mapping](https://onlinelibrary.wiley.com/doi/full/10.1002/rob.22337)|[![Github stars](https://img.shields.io/github/stars/hku-mars/LTAOM.svg)](https://github.com/hku-mars/LTAOM)|
