@@ -2,16 +2,16 @@
 
 
 
-This repository is a collection of paper with open-sourced codes for LiDAR-based mapping methods. It includes LiDAR-based odometry, dynamic object removal, and multiple map merging frameworks, which is essential for long-term robotic autonomy.
+This repository is a collection of paper with open-sourced codes for LiDAR-based mapping methods. It includes LiDAR-based odometry, dynamic object removal, and multiple map merging frameworks, which is essential for long-term robotic autonomy. </br>
 Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.17487) and [Awesome LiDAR Place Recognition](https://github.com/hogyun2/awesome-lidar-place-recognition) for inspiring this work.
 
 
 
-## Table of Contents
+## [Table of Contents](#table-of-contents)
 - [LiDAR Mapping](#lidar-mapping)
-  - [LiDAR Odometry](#lidar-odometry)
-  - [LiDAR-Inertial Odometry](#lidar-inertial-odometry)
-  - [Multiple LiDAR Odometry](#multiple-lidar-odometry)
+  - [LiDAR Only](#lidar-only)
+  - [LiDAR-Inertial](#lidar-inertial)
+  - [Multiple LiDAR](#multiple-lidar)
   - [Learning-based Mapping](#learning-based-mapping)
 - [Static Mapping](#static-mapping)
   - [Algorithm-based](#algorithm-based)
@@ -22,7 +22,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 
 
-**Keywords**
+**Venue Acronyms**
 - `ICRA`
 - `IROS`
 - `RSS`
@@ -38,9 +38,9 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 
 
-## Frontend
+## LiDAR Mapping
 
-### LiDAR Odometry
+### LiDAR Only
 
 |Year|Venue|Paper Title|Repository|
 |:-:|:-:|-|-|
@@ -53,6 +53,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |21|`ICRA`|[MULLS: Versatile LiDAR SLAM via Multi-metric Linear Least Square](https://ieeexplore.ieee.org/abstract/document/9561364)|[![Github stars](https://img.shields.io/github/stars/YuePanEdward/MULLS.svg)](https://github.com/YuePanEdward/MULLS)|
 |21|`IROS`|[F-LOAM : Fast LiDAR Odometry and Mapping](https://arxiv.org/pdf/2107.00822)|[![Github stars](https://img.shields.io/github/stars/wh200720041/floam.svg)](https://github.com/wh200720041/floam)|
 |21|`TGMS`|[T-LOAM: Truncated Least Squares Lidar-only Odometry and Mapping in Real-Time](https://ieeexplore.ieee.org/document/9446309)|[![Github stars](https://img.shields.io/github/stars/zhoupengwei/tloam.svg)](https://github.com/zhoupengwei/tloam)|
+|21|`RAL`|[Interactive 3D Graph SLAM for Map Correction](https://ieeexplore.ieee.org/document/9212613)|[![Github stars](https://img.shields.io/github/stars/SMRT-AIST/interactive_slam.svg)](https://github.com/SMRT-AIST/interactive_slam)|
 |22|`ICRA`|[CT-ICP: Real-time Elastic LiDAR Odometry with Loop Closure](https://arxiv.org/abs/2109.12979)|[![Github stars](https://img.shields.io/github/stars/jedeschaud/ct_icp.svg)](https://github.com/jedeschaud/ct_icp)|
 |22|`RAL`|[Direct LiDAR Odometry: Fast Localization with Dense Point Clouds](https://arxiv.org/pdf/2110.00605)|[![Github stars](https://img.shields.io/github/stars/vectr-ucla/direct_lidar_odometry.svg)](https://github.com/vectr-ucla/direct_lidar_odometry)|
 |22|`RAL`|[LOCUS 2.0: Robust and Computationally Efficient Lidar Odometry for Real-Time 3D Mapping](https://arxiv.org/pdf/2205.11784)|[![Github stars](https://img.shields.io/github/stars/NeBula-Autonomy/LOCUS.svg)](https://github.com/NeBula-Autonomy/LOCUS)|
@@ -60,12 +61,16 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |23|`ICRA`|[Real-Time Simultaneous Localization and Mapping with LiDAR intensity](https://arxiv.org/abs/2301.09257)|[![Github stars](https://img.shields.io/github/stars/MISTLab/Intensity_based_LiDAR_SLAM.svg)](https://github.com/MISTLab/Intensity_based_LiDAR_SLAM)|
 |23|`IROS`|[ECTLO: Effective Continuous-Time Odometry Using Range Image for LiDAR with Small FoV](https://ieeexplore.ieee.org/abstract/document/10341592)|[![Github stars](https://img.shields.io/github/stars/kevin2431/ECTLO.svg)](https://github.com/kevin2431/ECTLO)|
 |23|`RAL`|[KISS-ICP: In Defense of Point-to-Point ICP – Simple, Accurate, and Robust Registration If Done the Right Way](?)|[![Github stars](https://img.shields.io/github/stars/PRBonn/kiss-icp.svg)](https://github.com/PRBonn/kiss-icp)|
+|23|`ICRA`|[SLAMesh: Real-time LiDAR Simultaneous Localization and Meshing](https://arxiv.org/pdf/2303.05252)|[![Github stars](https://img.shields.io/github/stars/lab-sun/SLAMesh.svg)](https://github.com/lab-sun/SLAMesh)|
+|23|`RAL`|[HBA: A Globally Consistent and Efficient Large-Scale LiDAR Mapping Module](https://ieeexplore.ieee.org/abstract/document/10024300)|[![Github stars](https://img.shields.io/github/stars/hku-mars/HBA.svg)](https://github.com/hku-mars/HBA)|
+|21,</br>23|`RAL`,</br>`TRO`|[BALM: Bundle Adjustment for Lidar Mapping](https://ieeexplore.ieee.org/abstract/document/9366383),</br>[Efficient and Consistent Bundle Adjustment on Lidar Point Clouds](https://ieeexplore.ieee.org/abstract/document/10263983)|[![Github stars](https://img.shields.io/github/stars/hku-mars/BALM.svg)](https://github.com/hku-mars/BALM)|
 |24|`RAL`|[Light-LOAM: A Lightweight LiDAR Odometry and Mapping based on Graph-Matching](https://arxiv.org/pdf/2310.04162)|[![Github stars](https://img.shields.io/github/stars/BrenYi/Light-LOAM.svg)](https://github.com/BrenYi/Light-LOAM)|
 |24|`RAL`|[Traj-LO: In Defense of LiDAR-Only Odometry Using an Effective Continuous-Time Trajectory](https://ieeexplore.ieee.org/document/10387726)|[![Github stars](https://img.shields.io/github/stars/kevin2431/Traj-LO.svg)](https://github.com/kevin2431/Traj-LO)|
 |24|`arXiv`|[MAD-ICP: It Is All About Matching Data – Robust and Informed LiDAR Odometry](https://arxiv.org/abs/2405.05828)|[![Github stars](https://img.shields.io/github/stars/rvp-group/mad-icp.svg)](https://github.com/rvp-group/mad-icp)|
+<p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 
 
-### LiDAR-Inertial Odometry
+### LiDAR-Inertial
 
 |Year|Venue|Paper Title|Repository|
 |:-:|:-:|-|-|
@@ -75,8 +80,8 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |21|`ICRA`|[Poisson Surface Reconstruction for LiDAR Odometry and Mapping](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/vizzo2021icra.pdf)|[![Github stars](https://img.shields.io/github/stars/PRBonn/puma.svg)](https://github.com/PRBonn/puma)|
 |21|`IROS`|[CLINS : Continuous-Time Trajectory Estimation for LiDAR-Inertial System](https://arxiv.org/pdf/2109.04687.pdf)|[![Github stars](https://img.shields.io/github/stars/APRIL-ZJU/clins.svg)](https://github.com/APRIL-ZJU/clins)|
 |21|`RAL`|[Towards High-Performance Solid-State-LiDAR-Inertial Odometry and Mapping](https://ieeexplore.ieee.org/document/9392274)|[![Github stars](https://img.shields.io/github/stars/KIT-ISAS/lili-om.svg)](https://github.com/KIT-ISAS/lili-om)|
+|21,</br>22|`RAL`,</br>`TRO`|[FAST-LIO: A Fast, Robust LiDAR-inertial Odometry Package by Tightly-Coupled Iterated Kalman Filter](https://ieeexplore.ieee.org/abstract/document/9372856), </br> [FAST-LIO2: Fast Direct LiDAR-Inertial Odometry](https://ieeexplore.ieee.org/abstract/document/9697912)|[![Github stars](https://img.shields.io/github/stars/hku-mars/FAST_LIO.svg)](https://github.com/hku-mars/FAST_LIO)|
 |22|`RAL`|[Faster-LIO: Lightweight Tightly Coupled Lidar-Inertial Odometry Using Parallel Sparse Incremental Voxels](https://ieeexplore.ieee.org/abstract/document/9718203)|[![Github stars](https://img.shields.io/github/stars/gaoxiang12/faster-lio.svg)](https://github.com/gaoxiang12/faster-lio)|
-|22|`TRO`|[FAST-LIO2: Fast Direct LiDAR-Inertial Odometry](?)|[![Github stars](https://img.shields.io/github/stars/hku-mars/FAST_LIO.svg)](https://github.com/hku-mars/FAST_LIO)|
 |22|`arXiv`|[SR-LIO: LiDAR-Inertial Odometry with Sweep Reconstruction](https://arxiv.org/abs/2210.10424)|[![Github stars](https://img.shields.io/github/stars/ZikangYuan/sr_lio.svg)](https://github.com/ZikangYuan/sr_lio)|
 |23|`ICRA`|[Direct LiDAR-Inertial Odometry: Lightweight LIO with Continuous-Time Motion Correction](https://ieeexplore.ieee.org/document/10160508)|[![Github stars](https://img.shields.io/github/stars/vectr-ucla/direct_lidar_inertial_odometry.svg)](https://github.com/vectr-ucla/direct_lidar_inertial_odometry)|
 |23|`ICRA`|[Asynchronous State Estimation of Simultaneous Ego-motion Estimation and Multiple Object Tracking for LiDAR-Inertial Odometry](https://ieeexplore.ieee.org/document/10161269)|[![Github stars](https://img.shields.io/github/stars/StephLin/LIO-SEGMOT.svg)](https://github.com/StephLin/LIO-SEGMOT)|
@@ -95,20 +100,22 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |24|`RAL`|[LIMOT: A Tightly-Coupled System for LiDAR-Inertial Odometry and Multi-Object Tracking](https://ieeexplore.ieee.org/abstract/document/10538416)|[![Github stars](https://img.shields.io/github/stars/tiev-tongji/LIMOT.svg)](https://github.com/tiev-tongji/LIMOT)|
 |24|`arXiv`|[NV-LIO: LiDAR-Inertial Odometry using Normal Vectors Towards Robust SLAM in Multifloor Environments](https://arxiv.org/abs/2405.12563)|[![Github stars](https://img.shields.io/github/stars/dhchung/nv_lio.svg)](https://github.com/dhchung/nv_lio)|
 |24|`arXiv`|[LOG-LIO2: A LiDAR-Inertial Odometry with Efficient Uncertainty Analysis](https://arxiv.org/abs/2405.01316)|[![Github stars](https://img.shields.io/github/stars/tiev-tongji/LOG-LIO2.svg)](https://github.com/tiev-tongji/LOG-LIO2)|
+<p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 
 
-### MLO
+### Multiple LiDAR
 
 |Year|Venue|Paper Title|Repository|
 |:-:|:-:|-|-|
+|20|`IROS`|[A decentralized framework for simultaneous calibration, localization and mapping with multiple LiDARs](https://arxiv.org/abs/2007.01483)|[![Github stars](https://img.shields.io/github/stars/hku-mars/decentralized_loam.svg)](https://github.com/hku-mars/decentralized_loam)|
 |21|`TRO`|[Robust Odometry and Mapping for Multi-LiDAR Systems with Online Extrinsic Calibration](https://arxiv.org/pdf/2010.14294)|[![Github stars](https://img.shields.io/github/stars/gogojjh/M-LOAM.svg)](https://github.com/gogojjh/M-LOAM)|
 |23|`RAL`|[Asynchronous Multiple LiDAR-Inertial Odometry using Point-wise Inter-LiDAR Uncertainty Propagation](https://minwoo0611.github.io/publications/ral2023_mwjung.pdf)|[![Github stars](https://img.shields.io/github/stars/minwoo0611/MA-LIO.svg)](https://github.com/minwoo0611/MA-LIO)|
 |23|`RAL`|[SLICT: Multi-Input Multi-Scale Surfel-Based Lidar-Inertial Continuous-Time Odometry and Mapping](https://ieeexplore.ieee.org/abstract/document/10048526)|[![Github stars](https://img.shields.io/github/stars/brytsknguyen/slict.svg)](https://github.com/brytsknguyen/slict)|
 |23|`arXiv`|[Robust Multi-Modal Multi-LiDAR-Inertial Odometry and Mapping for Indoor Environments](https://arxiv.org/abs/2303.02684)|[![Github stars](https://img.shields.io/github/stars/TIERS/multi-modal-loam.svg)](https://github.com/TIERS/multi-modal-loam)|
+<p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 
 
-
-### Learning-based
+### Learning-based Mapping
 
 |Year|Venue|Paper Title|Repository|
 |:-:|:-:|-|-|
@@ -123,6 +130,8 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |24|`AAAI`|[DeepPointMap: Advancing LiDAR SLAM with Unified Neural Descriptors](https://arxiv.org/abs/2312.02684)|[![Github stars](https://img.shields.io/github/stars/ZhangXiaze/DeepPointMap.svg)](https://github.com/ZhangXiaze/DeepPointMap)|
 |24|`arXiv`|[N3-Mapping: Normal Guided Neural Non-Projective Signed Distance Fields for Large-scale 3D Mapping](https://arxiv.org/abs/2401.03412)|[![Github stars](https://img.shields.io/github/stars/tiev-tongji/N3-Mapping.svg)](https://github.com/tiev-tongji/N3-Mapping)|
 |24|`arXiv`|[PIN-SLAM: LiDAR SLAM Using a Point-Based Implicit Neural Representation for Achieving Global Map Consistency](https://arxiv.org/pdf/2401.09101v1)|[![Github stars](https://img.shields.io/github/stars/PRBonn/PIN_SLAM.svg)](https://github.com/PRBonn/PIN_SLAM)|
+<p align="right">[<a href="#table-of-contents">back to table</a>]</p>
+</br>
 
 
 
@@ -140,6 +149,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |24|`N`|[Moving event detection from LiDAR point streams](https://www.nature.com/articles/s41467-023-44554-8)|[![Github stars](https://img.shields.io/github/stars/hku-mars/M-detector.svg)](https://github.com/hku-mars/M-detector)|
 |24|`RAL`|[DUFOMap: Efficient Dynamic Awareness Mapping](https://arxiv.org/abs/2403.01449)|[![Github stars](https://img.shields.io/github/stars/KTH-RPL/dufomap.svg)](https://github.com/KTH-RPL/dufomap)|
 |24|`RAL`|[BeautyMap: Binary-Encoded Adaptable Ground Matrix for Dynamic Points Removal in Global Maps](https://arxiv.org/abs/2405.07283)|[![Github stars](https://img.shields.io/github/stars/MKJia/BeautyMap.svg)](https://github.com/MKJia/BeautyMap)|
+<p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 
 
 ### Learning-based
@@ -153,16 +163,35 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |23|`RAL`|[MotionBEV: Online LiDAR Moving Object segmentation with Bird's eye view based Appearance and Motion Features](https://ieeexplore.ieee.org/document/10287575)|[![Github stars](https://img.shields.io/github/stars/xieKKKi/MotionBEV.svg)](https://github.com/xieKKKi/MotionBEV)|
 |23|`RAL`|[Building Volumetric Beliefs for Dynamic Environments Exploiting Map-Based Moving Object Segmentation](https://www.ipb.uni-bonn.de/pdfs/mersch2023ral.pdf)|[![Github stars](https://img.shields.io/github/stars/PRBonn/MapMOS.svg)](https://github.com/PRBonn/MapMOS)|
 |24|`ICRA`|[MF-MOS: A Motion-Focused Model for Moving Object Segmentation](https://arxiv.org/abs/2401.17023)|[![Github stars](https://img.shields.io/github/stars/SCNU-RISLAB/MF-MOS.svg)](https://github.com/SCNU-RISLAB/MF-MOS)|
+<p align="right">[<a href="#table-of-contents">back to table</a>]</p>
+</br>
 
 
 
 ## Multiple Map Merging
 
-### Algorithm-based
+<!-- ### Algorithm-based -->
 
 |Year|Venue|Paper Title|Repository|
 |:-:|:-:|-|-|
-|20|`IROS`|[Remove, then Revert: Static Point cloud Map Construction using Multiresolution Range Images](https://ieeexplore.ieee.org/abstract/document/9340856)|[![Github stars](https://img.shields.io/github/stars/gisbi-kim/removert.svg)](https://github.com/gisbi-kim/removert)|
+|20,</br>22|`ICRA`|[LAMP: Large-scale autonomous mapping and positioning for exploration of perceptually-degraded subterranean environments](https://ieeexplore.ieee.org/abstract/document/9197082)</br>[LAMP 2.0: A robust multi-robot SLAM system for operation in challenging large-scale underground environments](https://ieeexplore.ieee.org/abstract/document/9830862)|[![Github stars](https://img.shields.io/github/stars/NeBula-Autonomy/LAMP.svg)](https://github.com/NeBula-Autonomy/LAMP)|
+|21|`RAL`|[Ground and Aerial Collaborative Mapping in Urban Environments](https://ieeexplore.ieee.org/document/9234707)|[![Github stars](https://img.shields.io/github/stars/SYSU-RoboticsLab/GAC-Mapping.svg)](https://github.com/SYSU-RoboticsLab/GAC-Mapping)|
+|22|`ICRA`|[LT-mapper: A Modular Framework for LiDAR-based Lifelong Mapping](https://ieeexplore.ieee.org/abstract/document/9811916)|[![Github stars](https://img.shields.io/github/stars/gisbi-kim/lt-mapper.svg)](https://github.com/gisbi-kim/lt-mapper)|
+|22|`RAL`|[DiSCo-SLAM: Distributed Scan Context-Enabled Multi-Robot LiDAR SLAM With Two-Stage Global-Local Graph Optimization](https://ieeexplore.ieee.org/abstract/document/9662965)|[![Github stars](https://img.shields.io/github/stars/RobustFieldAutonomyLab/DiSCo-SLAM.svg)](https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM)|
+|23|`ICRA`|[Swarm-lio: Decentralized swarm lidar-inertial odometry](https://ieeexplore.ieee.org/document/10161355)|[![Github stars](https://img.shields.io/github/stars/hku-mars/Swarm-LIO2.svg)](https://github.com/hku-mars/Swarm-LIO2)|
+|23|`SJ`|[DCL-SLAM: A Distributed Collaborative LiDAR SLAM Framework for a Robotic Swarm](https://ieeexplore.ieee.org/abstract/document/10375928)|[![Github stars](https://img.shields.io/github/stars/PengYu-Team/DCL-SLAM.svg)](https://github.com/PengYu-Team/DCL-SLAM)|
+|24|`ICRA`|[CoLRIO: LiDAR-Ranging-Inertial Centralized State Estimation for Robotic Swarms](https://arxiv.org/abs/2402.11790)|[![Github stars](https://img.shields.io/github/stars/PengYu-Team/Co-LRIO.svg)](https://github.com/PengYu-Team/Co-LRIO)|
+|24|`RAL`|[Swarm-SLAM: Sparse Decentralized Collaborative Simultaneous Localization and Mapping Framework for Multi-Robot Systems](https://ieeexplore.ieee.org/document/10321649)|[![Github stars](https://img.shields.io/github/stars/MISTLab/Swarm-SLAM.svg)](https://github.com/MISTLab/Swarm-SLAM)|
+|24|`JFR`|[LTA-OM: Long-Term Association LiDAR-Inertial Odometry and Mapping](https://onlinelibrary.wiley.com/doi/full/10.1002/rob.22337)|[![Github stars](https://img.shields.io/github/stars/hku-mars/LTAOM.svg)](https://github.com/hku-mars/LTAOM)|
+<p align="right">[<a href="#table-of-contents">back to table</a>]</p>
+</br>
+
+
+
+
+
+
+
 
 
 
@@ -170,12 +199,11 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 ### SLAM
 
-|Year|Venue|Paper Title|Code|
+
+
+|Year|Venue|Paper Title|Repository|
 |:-:|:-:|-|-|
-|20|`IROS`|[Remove, then Revert: Static Point cloud Map Construction using Multiresolution Range Images](https://ieeexplore.ieee.org/abstract/document/9340856)|[![Github stars](https://img.shields.io/github/stars/gisbi-kim/removert.svg)](https://github.com/gisbi-kim/removert)|
-
-
-
+|21|`RAL`|[Moving Object Segmentation in 3D LiDAR Data: A Learning-based Approach Exploiting Sequential Data](https://www.ipb.uni-bonn.de/pdfs/chen2021ral-iros.pdf)|[![Github stars](https://img.shields.io/github/stars/PRBonn/LiDAR-MOS.svg)](https://github.com/PRBonn/LiDAR-MOS)|
 
 |?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
 
@@ -184,13 +212,6 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
 
 |?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
-
-|?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
-
-|?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
-
-|?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
-
 
 
 
