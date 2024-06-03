@@ -3,33 +3,16 @@
 
 
 This repository is a collection of paper with open-sourced codes for LiDAR-based mapping methods. It includes LiDAR-based odometry, dynamic object removal, and multiple map merging frameworks, which is essential for long-term robotic autonomy. </br>
-If you find any work missing or misclassified, feel free to send me suggestions or updates via [pull request](https://github.com/hwan0806/Awesome-LiDAR-Mapping/pulls) or [issues](https://github.com/hwan0806/Awesome-LiDAR-Mapping/issues).
+If you find any work missing or misclassified, feel free to send me suggestions or updates via [pull request](https://github.com/hwan0806/Awesome-LiDAR-Mapping/pulls) or [issues](https://github.com/hwan0806/Awesome-LiDAR-Mapping/issues)!
 
 Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.17487) and [Awesome LiDAR Place Recognition](https://github.com/hogyun2/awesome-lidar-place-recognition) for inspiring this work.
 
 
 
-
-<!-- <style>
-  details {
-    font-size: 1.0em;
-  }
-  summary {
-    font-weight: bold;
-    font-size: 1.3em;
-  }
-</style> -->
-
-<details style="font-size: 1.0em;">
-<summary style="font-weight: bold; font-size: 1.3em;">
-News
-</summary>
-
+### News
+---
 - `24.06.03` : 
 - `24.06.03` : 
-
-</details>
-</br>
 
 
 ## [Table of Contents](#table-of-contents)
@@ -39,13 +22,14 @@ News
   - [Multiple LiDARs](#multiple-lidars)
   - [Learning-based Mapping](#learning-based-mapping)
 - [Static Mapping](#static-mapping)
-  - [Algorithm-based](#algorithm-based)
-  - [Learning-based](#learning-based)
+  - [Algorithm-based Removal](#algorithm-based-removal)
+  - [Learning-based Segmentation](#learning-based-segmentation)
 - [Multiple Map Merging](#multiple-map-merging)
 - [Useful repository](#useful-repository)
   - [LiDAR Odometry](#lidar-odometry)
   - [SLAM Framework (Odometry+PGO)](#slam-framework-odometrypgo)
   - [Evaluation](#evaluation)
+- [Related Awesome](#related-awesome)
 - [Contact](#contact)
 </br></br>
 
@@ -152,7 +136,7 @@ News
 
 ## Static Mapping
 
-### Algorithm-based
+### Algorithm-based Removal
 
 |Year|Venue|Paper Title|Repository|
 |:-:|:-:|-|-|
@@ -160,14 +144,15 @@ News
 |21|`RAL`|[ERASOR: Egocentric Ratio of Pseudo Occupancy-Based Dynamic Object Removal for Static 3D Point Cloud Map Building](https://arxiv.org/abs/2103.04316)|[![Github stars](https://img.shields.io/github/stars/LimHyungTae/ERASOR.svg)](https://github.com/LimHyungTae/ERASOR)|
 |23|`RAL`|[Dynablox: Real-time Detection of Diverse Dynamic Objects in Complex Environments](https://ieeexplore.ieee.org/document/10218983)|[![Github stars](https://img.shields.io/github/stars/ethz-asl/dynablox.svg)](https://github.com/ethz-asl/dynablox)|
 |23|`RSS`|[ERASOR2: Instance-Aware Robust 3D Mappingof the Static World in Dynamic Scenes](https://arxiv.org/abs/2103.04316)|[![Github stars](https://img.shields.io/github/stars/url-kaist/ERASOR2.svg)](https://github.com/url-kaist/ERASOR2)|
+|24|`CVPR`|[ICP-Flow: LiDAR Scene Flow Estimation with ICP](https://arxiv.org/abs/2402.17351)|[![Github stars](https://img.shields.io/github/stars/yanconglin/ICP-Flow.svg)](https://github.com/yanconglin/ICP-Flow)|
 |24|`RAL`|[RH-Map: Online Map Construction Framework of Dynamic Objects Removal Based on Region-wise Hash Map Structure](https://ieeexplore.ieee.org/document/10356720)|[![Github stars](https://img.shields.io/github/stars/YZH-bot/RH-Map.svg)](https://github.com/YZH-bot/RH-Map)|
-|24|`Nature`</br>`Com`|[Moving event detection from LiDAR point streams](https://www.nature.com/articles/s41467-023-44554-8)|[![Github stars](https://img.shields.io/github/stars/hku-mars/M-detector.svg)](https://github.com/hku-mars/M-detector)|
 |24|`RAL`|[DUFOMap: Efficient Dynamic Awareness Mapping](https://arxiv.org/abs/2403.01449)|[![Github stars](https://img.shields.io/github/stars/KTH-RPL/dufomap.svg)](https://github.com/KTH-RPL/dufomap)|
 |24|`RAL`|[BeautyMap: Binary-Encoded Adaptable Ground Matrix for Dynamic Points Removal in Global Maps](https://arxiv.org/abs/2405.07283)|[![Github stars](https://img.shields.io/github/stars/MKJia/BeautyMap.svg)](https://github.com/MKJia/BeautyMap)|
+|24|`Nature`</br>`Com`|[Moving event detection from LiDAR point streams](https://www.nature.com/articles/s41467-023-44554-8)|[![Github stars](https://img.shields.io/github/stars/hku-mars/M-detector.svg)](https://github.com/hku-mars/M-detector)|
 <p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 
 
-### Learning-based
+### Learning-based Segmentation
 
 |Year|Venue|Paper Title|Repository|
 |:-:|:-:|-|-|
@@ -178,6 +163,7 @@ News
 |23|`RAL`|[MotionBEV: Online LiDAR Moving Object segmentation with Bird's eye view based Appearance and Motion Features](https://ieeexplore.ieee.org/document/10287575)|[![Github stars](https://img.shields.io/github/stars/xieKKKi/MotionBEV.svg)](https://github.com/xieKKKi/MotionBEV)|
 |23|`RAL`|[Building Volumetric Beliefs for Dynamic Environments Exploiting Map-Based Moving Object Segmentation](https://www.ipb.uni-bonn.de/pdfs/mersch2023ral.pdf)|[![Github stars](https://img.shields.io/github/stars/PRBonn/MapMOS.svg)](https://github.com/PRBonn/MapMOS)|
 |24|`ICRA`|[MF-MOS: A Motion-Focused Model for Moving Object Segmentation](https://arxiv.org/abs/2401.17023)|[![Github stars](https://img.shields.io/github/stars/SCNU-RISLAB/MF-MOS.svg)](https://github.com/SCNU-RISLAB/MF-MOS)|
+|24|`ICRA`|[DeFlow: Decoder of Scene Flow Network in Autonomous Driving](https://arxiv.org/abs/2401.16122)|[![Github stars](https://img.shields.io/github/stars/KTH-RPL/DeFlow.svg)](https://github.com/KTH-RPL/DeFlow)|
 <p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 </br>
 
@@ -233,7 +219,7 @@ News
 
 
 
-### Evaluation
+### Dynamic Object Removal
 |Summary|Repository|
 |-|-|
 |evo: Python package for the evaluation of odometry and SLAM|[![Github stars](https://img.shields.io/github/stars/MichaelGrupp/evo.svg)](https://github.com/MichaelGrupp/evo)|
@@ -243,6 +229,25 @@ News
 </br>
 
 
+### Evaluation
+|Summary|Repository|
+|-|-|
+|evo: Python package for the evaluation of odometry and SLAM|[![Github stars](https://img.shields.io/github/stars/MichaelGrupp/evo.svg)](https://github.com/MichaelGrupp/evo)|
+|DynamicMap_Benchmark|[![Github stars](https://img.shields.io/github/stars/KTH-RPL/DynamicMap_Benchmark.svg)](https://github.com/KTH-RPL/DynamicMap_Benchmark)|
+|Cloud Map Evaluation|[![Github stars](https://img.shields.io/github/stars/JokerJohn/Cloud_Map_Evaluation.svg)](https://github.com/JokerJohn/Cloud_Map_Evaluation)|
+<p align="right">[<a href="#table-of-contents">back to table</a>]</p>
+</br>
+
+## Related Awesome
+
+- [Awesome LiDAR](https://github.com/szenergy/awesome-lidar)
+- [Awesome 3D LiDAR Datasets](https://github.com/minwoo0611/Awesome-3D-LiDAR-Datasets)
+- [Awesome LiDAR Place Recognition](https://github.com/hogyun2/awesome-lidar-place-recognition)
+- [Awesome Pointcloud Scene Flow](https://github.com/MaxChanger/awesome-point-cloud-scene-flow)
+- [Awesome Pointclouds Registration](https://github.com/wsunid/awesome-point-clouds-registration)
+- [Awesome Implicit NeRF SLAM](https://github.com/DoongLi/awesome-Implicit-NeRF-SLAM)
+<p align="right">[<a href="#table-of-contents">back to table</a>]</p>
+</br>
 
 ## Contact
 Gilhwan Kang : [rlfghks527@inha.edu](rlfghks527@inha.edu)
@@ -253,9 +258,8 @@ Gilhwan Kang : [rlfghks527@inha.edu](rlfghks527@inha.edu)
 
 <!-- |?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
 
+|?|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)| -->
 
-|?|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
- -->
 
 <!-- <details>
 <summary>Venue Acronyms</summary>
@@ -278,3 +282,10 @@ Gilhwan Kang : [rlfghks527@inha.edu](rlfghks527@inha.edu)
 
 </details> -->
 
+<!-- <details>
+<summary>News</summary>
+
+- `24.06.03` : 
+- `24.06.03` : 
+
+</details> -->
