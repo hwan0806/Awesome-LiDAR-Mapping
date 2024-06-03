@@ -10,7 +10,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 
 
-<style>
+<!-- <style>
   details {
     font-size: 1.0em;
   }
@@ -18,10 +18,12 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
     font-weight: bold;
     font-size: 1.3em;
   }
-</style>
+</style> -->
 
-<details>
-<summary>News</summary>
+<details style="font-size: 1.0em;">
+<summary style="font-weight: bold; font-size: 1.3em;">
+News
+</summary>
 
 - `24.06.03` : 
 - `24.06.03` : 
