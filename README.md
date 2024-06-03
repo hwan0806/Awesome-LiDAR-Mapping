@@ -3,8 +3,31 @@
 
 
 This repository is a collection of paper with open-sourced codes for LiDAR-based mapping methods. It includes LiDAR-based odometry, dynamic object removal, and multiple map merging frameworks, which is essential for long-term robotic autonomy. </br>
+If you find any work missing or misclassified, feel free to send me suggestions or updates via [pull request](https://github.com/hwan0806/Awesome-LiDAR-Mapping/pulls) or [issues](https://github.com/hwan0806/Awesome-LiDAR-Mapping/issues).
+
 Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.17487) and [Awesome LiDAR Place Recognition](https://github.com/hogyun2/awesome-lidar-place-recognition) for inspiring this work.
 
+
+
+
+<style>
+  details {
+    font-size: 1.0em;
+  }
+  summary {
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+</style>
+
+<details>
+<summary>News</summary>
+
+- `24.06.03` : 
+- `24.06.03` : 
+
+</details>
+</br>
 
 
 ## [Table of Contents](#table-of-contents)
@@ -21,25 +44,10 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
   - [LiDAR Odometry](#lidar-odometry)
   - [SLAM Framework (Odometry+PGO)](#slam-framework-odometrypgo)
   - [Evaluation](#evaluation)
-- [Acknowledgement](#acknowledgement)
 - [Contact](#contact)
+</br></br>
 
 
-
-**Venue Acronyms**
-- `ICRA`
-- `IROS`
-- `RSS`
-- `RAL`
-- `CVPR`
-- `ICCV`
-- `AAAI`
-- `TIV`
-- `TPAMI`
-- `TRO`
-- `NATCOM`
-- `ISPRS`
-- `SJ`
 
 
 
@@ -193,14 +201,6 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 
 
-|?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
-
-|?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
-
-|?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
-
-
-
 ## Useful repository
 
 ### LiDAR Odometry
@@ -240,43 +240,39 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 <p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 </br>
 
-|Year|Venue|Paper Title|Repository|
-|:-:|:-:|-|-|
-|23|`ITSC`|[A Dynamic Points Removal Benchmark in Point Cloud Maps](https://arxiv.org/abs/2307.07260)|[![Github stars](https://img.shields.io/github/stars/KTH-RPL/DynamicMap_Benchmark.svg)](https://github.com/KTH-RPL/DynamicMap_Benchmark)|
 
-|?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
 
-|?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
-
+## Contact
+Gilhwan Kang : [rlfghks527@inha.edu](rlfghks527@inha.edu)
+<p align="right">[<a href="#table-of-contents">back to table</a>]</p>
+</br>
 
 
 
-||[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
-
-||[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
-
-||[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
-
-||[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
-
-||[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
+<!-- |?|`?`|[?](?)|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
 
 
+|?|[![Github stars](https://img.shields.io/github/stars/link.svg)](https://github.com/link)|
+ -->
 
+<!-- <details>
+<summary>Venue Acronyms</summary>
 
+- **Conference**
+  - `ICRA` : IEEE International Conference on Robotics and Automation
+  - `IROS` : IEEE/RSJ International Conference on Intelligent Robots and Systems
+  - `RSS`  : Robotics: Science and Systems
+  - `CVPR` : IEEE / CVF Computer Vision and Pattern Recognition Conference
+  - `ICCV`
+  - `AAAI` : The Association for the Advancement of Artificial Intelligence
+- **Journal**
+  - `RAL`
+  - `TIV`
+  - `TPAMI`
+  - `TRO`
+  - `NATCOM`
+  - `ISPRS`
+  - `Sensors`
 
-
-<!-- 
-<style>
-  details {
-    font-size: 1.5em;
-  }
-  summary {
-    cursor: pointer;
-    font-weight: bold;
-  }
-</style>
-
-<details>
-<summary>클릭하여 펼치기</summary>
 </details> -->
+
