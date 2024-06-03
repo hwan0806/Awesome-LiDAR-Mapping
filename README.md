@@ -6,13 +6,12 @@ This repository is a collection of paper with open-sourced codes for LiDAR-based
 If you find any work missing or misclassified, feel free to send me suggestions or updates via [pull request](https://github.com/hwan0806/Awesome-LiDAR-Mapping/pulls) or [issues](https://github.com/hwan0806/Awesome-LiDAR-Mapping/issues)!
 
 Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.17487) and [Awesome LiDAR Place Recognition](https://github.com/hogyun2/awesome-lidar-place-recognition) for inspiring this work.
-
+</br></br>
 
 
 ## News
-- `24.06.03` : 
-- `24.06.03` : 
-
+- `24.06.03` : First public commit
+</br></br>
 
 ## [Table of Contents](#table-of-contents)
 - [LiDAR Mapping](#lidar-mapping)
@@ -45,6 +44,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |14|`RSS`|[LOAM: Lidar odometry and mapping in real-time](https://www.ri.cmu.edu/pub_files/2014/7/Ji_LidarMapping_RSS2014_v8.pdf)|[![Github stars](https://img.shields.io/github/stars/laboshinl/loam_velodyne.svg)](https://github.com/laboshinl/loam_velodyne)<br>[![Github stars](https://img.shields.io/github/stars/HKUST-Aerial-Robotics/A-LOAM.svg)](https://github.com/HKUST-Aerial-Robotics/A-LOAM)|
 |18|`RSS`|[Efficient Surfel-Based SLAM using 3D Laser Range Data in Urban Environments](https://roboticsproceedings.org/rss14/p16.pdf)|[![Github stars](https://img.shields.io/github/stars/jbehley/SuMa.svg)](https://github.com/jbehley/SuMa)|
 |18|`IROS`|[LeGO-LOAM: Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain](https://ieeexplore.ieee.org/abstract/document/8594299)|[![Github stars](https://img.shields.io/github/stars/RobustFieldAutonomyLab/LeGO-LOAM.svg)](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM)|
+|19|`IJARS`|[A Portable 3D LIDAR-based System for Long-term and Wide-area People Behavior Measurement](https://journals.sagepub.com/doi/full/10.1177/1729881419841532)|[![Github stars](https://img.shields.io/github/stars/koide3/hdl_graph_slam.svg)](https://github.com/koide3/hdl_graph_slam)|
 |19|`RSS`|[A Modular Optimization Framework for Localization and Mapping](https://www.roboticsproceedings.org/rss15/p43.pdf)|[![Github stars](https://img.shields.io/github/stars/MOLAorg/mola.svg)](https://github.com/MOLAorg/mola)|
 |20|`ICRA`|[Loam livox: A fast, robust, high-precision LiDAR odometry and mapping package for LiDARs of small FoV](https://ieeexplore.ieee.org/document/9197440)|[![Github stars](https://img.shields.io/github/stars/hku-mars/loam_livox.svg)](https://github.com/hku-mars/loam_livox)|
 |20|`ICRA`|[LOL: Lidar-only Odometry and Localization in 3D point cloud maps](https://ieeexplore.ieee.org/abstract/document/9197450)|[![Github stars](https://img.shields.io/github/stars/RozDavid/LOL.svg)](https://github.com/RozDavid/LOL)|
@@ -124,6 +124,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |23|`RAL`|[LONER: LiDAR Only Neural Representations for Real-Time SLAM](https://arxiv.org/abs/2309.04937)|[![Github stars](https://img.shields.io/github/stars/umautobots/LONER.svg)](https://github.com/umautobots/LONER)|
 |23|`ICCV`|[NeRF-LOAM: Neural Implicit Representation for Large-Scale Incremental LiDAR Odometry and Mapping](https://arxiv.org/pdf/2303.10709)|[![Github stars](https://img.shields.io/github/stars/JunyuanDeng/NeRF-LOAM.svg)](https://github.com/JunyuanDeng/NeRF-LOAM)|
 |23|`TIV`|[HPPLO-Net: Unsupervised LiDAR Odometry Using a Hierarchical Point-to-Plane Solver](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10160144&tag=1)|[![Github stars](https://img.shields.io/github/stars/IMRL/HPPLO-Net.svg)](https://github.com/IMRL/HPPLO-Net)|
+|24|`ICRA`|[Towards Large-Scale Incremental Dense Mapping using Robot-centric Implicit Neural Representation](https://arxiv.org/pdf/2306.10472)|[![Github stars](https://img.shields.io/github/stars/HITSZ-NRSL/RIM.svg)](https://github.com/HITSZ-NRSL/RIM)|
 |24|`CVPR`|[3D LiDAR Mapping in Dynamic Environments using a 4D Implicit Neural Representation](https://www.ipb.uni-bonn.de/pdfs/zhong2024cvpr.pdf)|[![Github stars](https://img.shields.io/github/stars/PRBonn/4dNDF.svg)](https://github.com/PRBonn/4dNDF)|
 |24|`AAAI`|[DeepPointMap: Advancing LiDAR SLAM with Unified Neural Descriptors](https://arxiv.org/abs/2312.02684)|[![Github stars](https://img.shields.io/github/stars/ZhangXiaze/DeepPointMap.svg)](https://github.com/ZhangXiaze/DeepPointMap)|
 |24|`arXiv`|[N3-Mapping: Normal Guided Neural Non-Projective Signed Distance Fields for Large-scale 3D Mapping](https://arxiv.org/abs/2401.03412)|[![Github stars](https://img.shields.io/github/stars/tiev-tongji/N3-Mapping.svg)](https://github.com/tiev-tongji/N3-Mapping)|
@@ -237,10 +238,15 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 <p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 </br>
 
+
 ## Contact
 Gilhwan Kang : [rlfghks527@inha.edu](rlfghks527@inha.edu)
 <p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 </br>
+
+
+
+
 
 
 
