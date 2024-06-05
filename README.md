@@ -214,6 +214,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |FAST-LIO-SAM-SC-QN: FAST-LIO-SAM-QN + Scan Context|[![Github stars](https://img.shields.io/github/stars/engcang/FAST-LIO-SAM-SC-QN.svg)](https://github.com/engcang/FAST-LIO-SAM-SC-QN)|
 |Faster_LIO_SAM: Faster-Lio + Lio-SAM|[![Github stars](https://img.shields.io/github/stars/GDUT-Kyle/faster_lio_sam.svg)](https://github.com/GDUT-Kyle/faster_lio_sam)|
 |IG-LIO + LIO-SAM|[![Github stars](https://img.shields.io/github/stars/liangheming/iG-LIO_SAM_LC.svg)](https://github.com/liangheming/iG-LIO_SAM_LC)</br>[![Github stars](https://img.shields.io/github/stars/INIF-FISH/IG_LIO_SLAM.svg)](https://github.com/INIF-FISH/IG_LIO_SLAM)|
+|DLC-SLAM: LIO-SAM + DLC-NET|[![Github stars](https://img.shields.io/github/stars/KangchengLiu/DLC_LiDAR_SLAM.svg)](https://github.com/KangchengLiu/DLC_LiDAR_SLAM)|
 |LeGO-LOAM + BoW3D|[![Github stars](https://img.shields.io/github/stars/chengwei0427/BoW3D-LeGO-LOAM.svg)](https://github.com/chengwei0427/BoW3D-LeGO-LOAM)|
 <p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 
