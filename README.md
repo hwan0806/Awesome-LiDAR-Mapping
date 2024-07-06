@@ -10,6 +10,8 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 
 ## News
+- `24.07.07` : Update 6 papers (SR-LIO, PIN-SLAM, I2EKF-LIO, FMCW-LIO, Dyna-LO, SeFlow)
+- `24.06.05` : Add DLC-SLAM via PR
 - `24.06.03` : First public commit
 </br></br>
 
@@ -61,6 +63,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |23|`RAL`|[KISS-ICP: In Defense of Point-to-Point ICP – Simple, Accurate, and Robust Registration If Done the Right Way](?)|[![Github stars](https://img.shields.io/github/stars/PRBonn/kiss-icp.svg)](https://github.com/PRBonn/kiss-icp)|
 |23|`ICRA`|[SLAMesh: Real-time LiDAR Simultaneous Localization and Meshing](https://arxiv.org/pdf/2303.05252)|[![Github stars](https://img.shields.io/github/stars/lab-sun/SLAMesh.svg)](https://github.com/lab-sun/SLAMesh)|
 |23|`RAL`|[HBA: A Globally Consistent and Efficient Large-Scale LiDAR Mapping Module](https://ieeexplore.ieee.org/abstract/document/10024300)|[![Github stars](https://img.shields.io/github/stars/hku-mars/HBA.svg)](https://github.com/hku-mars/HBA)|
+|23|`TIV`|[Dynamic Object-aware LiDAR Odometry Aided by Joint Weightings Estimation in Urban Areas](https://ieeexplore.ieee.org/document/10337805)|[![Github stars](https://img.shields.io/github/stars/DarrenWong/code_for_dynaLO.svg)](https://github.com/DarrenWong/code_for_dynaLO)|
 |21,</br>23|`RAL`,</br>`TRO`|[BALM: Bundle Adjustment for Lidar Mapping](https://ieeexplore.ieee.org/abstract/document/9366383),</br>[Efficient and Consistent Bundle Adjustment on Lidar Point Clouds](https://ieeexplore.ieee.org/abstract/document/10263983)|[![Github stars](https://img.shields.io/github/stars/hku-mars/BALM.svg)](https://github.com/hku-mars/BALM)|
 |24|`RAL`|[Light-LOAM: A Lightweight LiDAR Odometry and Mapping based on Graph-Matching](https://arxiv.org/pdf/2310.04162)|[![Github stars](https://img.shields.io/github/stars/BrenYi/Light-LOAM.svg)](https://github.com/BrenYi/Light-LOAM)|
 |24|`RAL`|[Traj-LO: In Defense of LiDAR-Only Odometry Using an Effective Continuous-Time Trajectory](https://ieeexplore.ieee.org/document/10387726)|[![Github stars](https://img.shields.io/github/stars/kevin2431/Traj-LO.svg)](https://github.com/kevin2431/Traj-LO)|
@@ -166,6 +169,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |23|`RAL`|[Building Volumetric Beliefs for Dynamic Environments Exploiting Map-Based Moving Object Segmentation](https://www.ipb.uni-bonn.de/pdfs/mersch2023ral.pdf)|[![Github stars](https://img.shields.io/github/stars/PRBonn/MapMOS.svg)](https://github.com/PRBonn/MapMOS)|
 |24|`ICRA`|[MF-MOS: A Motion-Focused Model for Moving Object Segmentation](https://arxiv.org/abs/2401.17023)|[![Github stars](https://img.shields.io/github/stars/SCNU-RISLAB/MF-MOS.svg)](https://github.com/SCNU-RISLAB/MF-MOS)|
 |24|`ICRA`|[DeFlow: Decoder of Scene Flow Network in Autonomous Driving](https://arxiv.org/abs/2401.16122)|[![Github stars](https://img.shields.io/github/stars/KTH-RPL/DeFlow.svg)](https://github.com/KTH-RPL/DeFlow)|
+|24|`ECCV`|[SeFlow: A Self-Supervised Scene Flow Method in Autonomous Driving](https://arxiv.org/abs/2407.01702)|[![Github stars](https://img.shields.io/github/stars/KTH-RPL/SeFlow.svg)](https://github.com/KTH-RPL/SeFlow)|
 <p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 </br>
 
