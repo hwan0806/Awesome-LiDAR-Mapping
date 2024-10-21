@@ -67,7 +67,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |21,</br>23|`RAL`,</br>`TRO`|[BALM: Bundle Adjustment for Lidar Mapping](https://ieeexplore.ieee.org/abstract/document/9366383),</br>[Efficient and Consistent Bundle Adjustment on Lidar Point Clouds](https://ieeexplore.ieee.org/abstract/document/10263983)|[![Github stars](https://img.shields.io/github/stars/hku-mars/BALM.svg)](https://github.com/hku-mars/BALM)|
 |24|`RAL`|[Light-LOAM: A Lightweight LiDAR Odometry and Mapping based on Graph-Matching](https://arxiv.org/pdf/2310.04162)|[![Github stars](https://img.shields.io/github/stars/BrenYi/Light-LOAM.svg)](https://github.com/BrenYi/Light-LOAM)|
 |24|`RAL`|[Traj-LO: In Defense of LiDAR-Only Odometry Using an Effective Continuous-Time Trajectory](https://ieeexplore.ieee.org/document/10387726)|[![Github stars](https://img.shields.io/github/stars/kevin2431/Traj-LO.svg)](https://github.com/kevin2431/Traj-LO)|
-|24|`arXiv`|[MAD-ICP: It Is All About Matching Data – Robust and Informed LiDAR Odometry](https://arxiv.org/abs/2405.05828)|[![Github stars](https://img.shields.io/github/stars/rvp-group/mad-icp.svg)](https://github.com/rvp-group/mad-icp)|
+|24|`RAL`|[MAD-ICP: It Is All About Matching Data – Robust and Informed LiDAR Odometry](https://ieeexplore.ieee.org/document/10669999)|[![Github stars](https://img.shields.io/github/stars/rvp-group/mad-icp.svg)](https://github.com/rvp-group/mad-icp)|
 <p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 
 
