@@ -249,7 +249,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 
 
 ## Contact
-Gilhwan Kang : [rlfghks527@inha.edu](rlfghks527@inha.edu)
+Gilhwan Kang : [gilhwan@hyundai.com](gilhwan@hyundai.com)
 <p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 </br>
 
