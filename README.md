@@ -224,6 +224,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |IG-LIO + LIO-SAM|[![Github stars](https://img.shields.io/github/stars/liangheming/iG-LIO_SAM_LC.svg)](https://github.com/liangheming/iG-LIO_SAM_LC)</br>[![Github stars](https://img.shields.io/github/stars/INIF-FISH/IG_LIO_SLAM.svg)](https://github.com/INIF-FISH/IG_LIO_SLAM)|
 |DLC-SLAM: LIO-SAM + DLC-NET|[![Github stars](https://img.shields.io/github/stars/KangchengLiu/DLC_LiDAR_SLAM.svg)](https://github.com/KangchengLiu/DLC_LiDAR_SLAM)|
 |LeGO-LOAM + BoW3D|[![Github stars](https://img.shields.io/github/stars/chengwei0427/BoW3D-LeGO-LOAM.svg)](https://github.com/chengwei0427/BoW3D-LeGO-LOAM)|
+|HDMapping|[![Github stars](https://img.shields.io/github/stars/MapsHD/HDMapping.svg)](https://github.com/MapsHD/HDMapping)|
 <p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 
 
@@ -233,6 +234,7 @@ Thanks to the authors of the [LiDAR Odometry Survey](https://arxiv.org/abs/2312.
 |evo: Python package for the evaluation of odometry and SLAM|[![Github stars](https://img.shields.io/github/stars/MichaelGrupp/evo.svg)](https://github.com/MichaelGrupp/evo)|
 |DynamicMap_Benchmark|[![Github stars](https://img.shields.io/github/stars/KTH-RPL/DynamicMap_Benchmark.svg)](https://github.com/KTH-RPL/DynamicMap_Benchmark)|
 |Cloud Map Evaluation|[![Github stars](https://img.shields.io/github/stars/JokerJohn/Cloud_Map_Evaluation.svg)](https://github.com/JokerJohn/Cloud_Map_Evaluation)|
+|benchmark-HDMapping-Orchestration|[![Github stars](https://img.shields.io/github/stars/MapsHD/benchmark-HDMapping-Orchestration.svg)](https://github.com/MapsHD/benchmark-HDMapping-Orchestration)|
 <p align="right">[<a href="#table-of-contents">back to table</a>]</p>
 </br>
 
